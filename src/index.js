@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Counter from './counter_timer';
+import StepIncrement from './stepicrement'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* To run timer_counter please uncomment below one and comment the StepIncrement */}
+    {/* <Counter /> */ } 
+    <StepIncrement />
   </React.StrictMode>
 );
 
